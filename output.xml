@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.9 on darwin)" generated="2025-10-17T00:16:35.666855" rpa="false" schemaversion="5">
+<suite id="s1" name="Schemathesis" source="/Users/maaretp/Documents/cgi-code/pft-docker/schemathesis.robot">
+<test id="s1-t1" name="All Tests" line="8">
+<kw name="Wrapper">
+<msg time="2025-10-17T00:16:35.809162" level="FAIL">Keyword 'Wrapper' expected 1 argument, got 2.</msg>
+<arg>Wrapper</arg>
+<arg>test_case_1</arg>
+<status status="FAIL" start="2025-10-17T00:16:35.809105" elapsed="0.000081">Keyword 'Wrapper' expected 1 argument, got 2.</status>
+</kw>
+<status status="FAIL" start="2025-10-17T00:16:35.808585" elapsed="0.000698">Keyword 'Wrapper' expected 1 argument, got 2.</status>
+</test>
+<status status="FAIL" start="2025-10-17T00:16:35.667785" elapsed="0.141643"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Schemathesis" id="s1" pass="0" fail="1" skip="0">Schemathesis</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-10-17T00:16:35.805074" level="ERROR">[ DataDriver ] Error in robot file:
+  File "/Users/maaretp/Documents/cgi-code/pft-docker/schemathesis.robot", line 0</msg>
+<msg time="2025-10-17T00:16:35.808493" level="ERROR">Calling method '_start_suite' of listener 'SchemathesisLibrary' failed: LoaderError: Connection failed</msg>
+</errors>
+</robot>

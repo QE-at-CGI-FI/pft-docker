@@ -3,7 +3,7 @@ Library           RequestsLibrary
 
 *** Variables ***
 ${BASE_URL}       http://localhost:3000
-${CHALLENGE_NAME}    Score Board
+${CHALLENGE_NAME}    score-board
 
 *** Test Cases ***
 Score Board endpoint returns 200
